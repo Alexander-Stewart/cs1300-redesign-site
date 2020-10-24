@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 h1,h2 {
 	 font-family: 'Bebas Neue', cursive;
 }
@@ -6,8 +10,18 @@ body, li {
 	font-family: 'Montserrat';
 }
 
+.btn:hover {
+	filter: brightness(90%);
+}
+
 .vid-box {
 	height: calc(100vh - 56px);
+}
+
+.middle-button {
+	width: 4em;
+	height: 4em;
+	bottom: -2em;
 }
 
 .clothes-box {

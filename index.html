@@ -11,9 +11,10 @@
     <title>Grove Street Apparel</title>
   </head>
   <body>
-    <nav class="navbar navbar-dark navbar-expand-sm bg-dark">
+    <script src="./bootstrap.js"></script>
+    <nav class="navbar navbar-dark navbar-expand-sm bg-dark sticky-top">
     	<div class="container-fluid">
-    		<a class="navbar-brand" href="#"><img class="logo" src="./logo_white.png" alt="Logo." /></a>
+    		<a class="navbar-brand" href="#"><img class="logo" src="./img/logo_white.png" alt="Logo." /></a>
     		<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     			<span class="navbar-toggler-icon"></span>
   			</button>
@@ -26,42 +27,50 @@
 	    		</ul>
 	    		<ul class="navbar-nav ml-auto">
 	    			<li class="navbar-item"><a class="nav-link">Log In<a></li>
-	    			<li class="navbar-item"><a class="nav-link">Cart<a></li>
+	    			<li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Cart
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                            <span class="dropdown-item-text text-center">Empty</span>
+                            <div class="dropdown-divider"></div>
+                        </div>
+                    </li>
 	    		</ul>
     		</div>
     	</div>
     </nav>
 
- 
     <div class="d-flex flex-column bg-dark justify-content-center align-items-center vid-box">
     	<video class="h-75 w-100" autoplay muted loop>
-		  <source src="./video.mp4" type="video/mp4">
+		  <source src="./img/video.mp4" type="video/mp4">
 		  	Your browser does not support the video tag.
 		</video>
     	<h1 class="text-light w-100 display-1 flex-fill d-flex justify-content-center align-items-center">"GROWTH"</h1>
+        <a type="button" id="scroll-button"class="btn btn-light shadow-sm rounded-circle position-absolute middle-button d-flex justify-content-center align-items-center" href="#scroll-button"><img class="logo " src="./img/arrow1.png" alt="downward arrow to move page." /></a>
     </div>
 
     <div id="collection-3" class="bg-light text-center">
-    	<h1 class="display-1 mt-5">Collection III Dropping soon</h1>
+    	<h1 class="display-1 pt-5">Collection III Dropping soon</h1>
     	<div class="container-fluid">
     		<div class="row">
     			<div class="col-md-6 col-lg-4">
-    				<img class="clothes" src="./shirt1.png" alt="shirt 1 from collection 3.">
+    				<img class="clothes" src="./img/shirt1.png" alt="shirt 1 from collection 3.">
     			</div>
     			<div class="col-md-6 col-lg-4">
-    				<img class="clothes" src="./shirt2.png" alt="shirt 2 from collection 3.">
+    				<img class="clothes" src="./img/shirt2.png" alt="shirt 2 from collection 3.">
     			</div>
     			<div class="col-md-6 col-lg-4">
-    				<img class="clothes" src="./shirt3.png" alt="shirt 3 from collection 3.">
+    				<img class="clothes" src="./img/shirt3.png" alt="shirt 3 from collection 3.">
     			</div>
     			<div class="col-md-6 col-lg-4">
-    				<img class="clothes" src="./shirt4.png" alt="shirt 4 from collection 3.">
+    				<img class="clothes" src="./img/shirt4.png" alt="shirt 4 from collection 3.">
     			</div>
     			<div class="col-md-6 col-lg-4">
-    				<img class="clothes" src="./shirt5.png" alt="shirt 5 from collection 3.">
+    				<img class="clothes" src="./img/shirt5.png" alt="shirt 5 from collection 3.">
     			</div>
     			<div class="col-md-6 col-lg-4">
-    				<img class="clothes" src="./shirt6.png" alt="shirt 6 from collection 3.">
+    				<img class="clothes" src="./img/shirt6.png" alt="shirt 6 from collection 3.">
     			</div>
     		</div>	
     	</div>
